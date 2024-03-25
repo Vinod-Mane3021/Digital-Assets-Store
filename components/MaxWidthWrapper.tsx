@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { ReactNode } from "react";
 
 type MaxWidthWrapperProps = {
   className?: string;
