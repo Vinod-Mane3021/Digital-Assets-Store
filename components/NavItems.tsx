@@ -4,7 +4,7 @@ import { PRODUCT_CATEGORIES } from "@/config"
 import { useEffect, useRef, useState } from "react"
 import NavItem from "./NavItem"
 import { useOnClickOutside } from "@/hooks/use-onClick-outside"
-import { useOnClickKeyboardButton } from "@/hooks/use-onClick-Escape"
+import { useOnClickKeyboardButton } from "@/hooks/use-onClick-KeyboardButton"
 
 const NavItems = () => {  
   const [activeIndex, setActiveIndex] = useState<number | null>(null)
